@@ -16,12 +16,17 @@ public class triangle_01 {
 			for(int j= 1 ; j<=i; j++) {
 				int even = i+j;
 				if(even%2==0) {
-					System.out.print("1");
+					System.out.print("1" + " ");
 				} else {
-					System.out.print("0");
+					System.out.print("0" + " ");
 				}
 				
 			}
+
+			for( int j = 1 ;j<=n-i ;j++) {
+				System.out.print(" ");
+			}
+			
 			System.out.println();
 		}
 	}
